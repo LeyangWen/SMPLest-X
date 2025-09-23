@@ -7,6 +7,8 @@ import torch.backends.cudnn as cudnn
 import torch
 import cv2
 import datetime
+import pickle
+
 from tqdm import tqdm
 from pathlib import Path
 from human_models.human_models import SMPLX
@@ -26,6 +28,8 @@ def parse_args():
     parser.add_argument('--start', type=str, default=1)
     parser.add_argument('--end', type=str, default=1)
     parser.add_argument('--multi_person', action='store_true')
+    parser.add_argument('--fps', type=int, default=20)
+    parser.add_argument('--output_path', type=str, default='./demo/result_test.pkl')
     args = parser.parse_args()
     return args
 
@@ -72,6 +76,9 @@ def main():
 
     start = int(args.start)
     end = int(args.end) + 1
+
+    poses_list = []   # list of (159,) axis-angle vectors, exclude eyes, smplx
+    trans_list = []   # list of (3,) translations
 
     for frame in tqdm(range(start, end)):
         
@@ -133,10 +140,8 @@ def main():
 
             # mesh recovery
             with torch.no_grad():
-                out = demoer.model(inputs, targets, meta_info, 'test')
-
+                out = demoer.model(inputs, targets, meta_info, 'test')  # dict_keys(['img', 'smplx_joint_proj', 'smplx_mesh_cam', 'smplx_root_pose', 'smplx_body_pose', 'smplx_lhand_pose', 'smplx_rhand_pose', 'smplx_jaw_pose', 'smplx_shape', 'smplx_expr', 'cam_trans', 'smplx_joint_cam'])
             mesh = out['smplx_mesh_cam'].detach().cpu().numpy()[0]
-
             # render mesh
             focal = [cfg.model.focal[0] / cfg.model.input_body_shape[1] * bbox[2], 
                      cfg.model.focal[1] / cfg.model.input_body_shape[0] * bbox[3]]
@@ -149,9 +154,49 @@ def main():
             # draw mesh
             vis_img = render_mesh(vis_img, mesh, smpl_x.face, {'focal': focal, 'princpt': princpt}, mesh_as_vertices=False)
 
+            
+            ### Save results in pkl (Wen):
+            if num_bbox > 1:
+                print(f"Frame {frame}: Detected {num_bbox} persons, only saving bbox {bbox_id} in results.")
+            if bbox_id == 0:
+                root = out['smplx_root_pose']   # (1, 3)
+                body = out['smplx_body_pose']   # (1, 63)
+                lhd  = out['smplx_lhand_pose']  # (1, 45)
+                rhd  = out['smplx_rhand_pose']  # (1, 45)
+                jaw  = out['smplx_jaw_pose']    # (1, 3)
+                trans = out['cam_trans']        # (1, 3)
+
+                pose_vec = torch.cat([root, body, lhd, rhd, jaw], dim=-1).squeeze(0).detach().cpu().numpy()  # (159,)
+                trans_vec = trans.squeeze(0).detach().cpu().numpy()                                          # (3,)
+
+                poses_list.append(pose_vec)
+                trans_list.append(trans_vec)
+            # If nothing was appended for this frame, add NaNs to keep T consistent
+            if len(poses_list) < (frame - start + 1):
+                poses_list.append(np.full((159,), np.nan, dtype=np.float32))
+                trans_list.append(np.full((3,),   np.nan, dtype=np.float32))
+                print(f"Frame {frame}: No valid detections, appending NaNs to results.")
+
+            
+
+
         # save rendered image
         frame_name = os.path.basename(img_path)
         cv2.imwrite(os.path.join(output_folder, frame_name), vis_img[:, :, ::-1])
+    
+    poses = np.stack(poses_list, axis=0)  # (T, 159)
+    trans = np.stack(trans_list, axis=0)  # (T, 3)
+
+    required_params = {
+        "poses": poses,
+        "trans": trans,
+        "fps": args.fps
+    }
+
+    with open(args.output_path, "wb") as f:
+        pickle.dump(required_params, f, protocol=pickle.HIGHEST_PROTOCOL)
+
+    print(f"[OK] Wrote poses/trans/fps for {poses.shape[0]} frames to {args.output_path}")
 
 
 if __name__ == "__main__":
