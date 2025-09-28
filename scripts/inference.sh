@@ -42,20 +42,20 @@ python main/inference.py \
 
 
 # convert frames to video
-case "$EXT" in
-    mp4|avi|mov|mkv|flv|wmv|webm|mpeg|mpg)
-        ffmpeg -y -r "$FPS" -i "$OUTPUT_PATH/%06d.jpg" \
-            -vf "scale=in_range=pc:out_range=tv,format=yuv420p" \
-            -c:v libx264 -profile:v high -pix_fmt yuv420p -crf 18 -preset veryfast \
-            -movflags +faststart "${RESULT_PATH}.mp4"
-        ;;
-    jpg|jpeg|png|bmp|gif|tiff|tif|webp|svg)
-        cp $OUTPUT_PATH/000001.$EXT "${RESULT_PATH}.$EXT"
-        ;;
-    *)
-        exit 1
-        ;;
-esac
+# case "$EXT" in
+#     mp4|avi|mov|mkv|flv|wmv|webm|mpeg|mpg)
+#         ffmpeg -y -r "$FPS" -i "$OUTPUT_PATH/%06d.jpg" \
+#             -vf "scale=in_range=pc:out_range=tv,format=yuv420p" \
+#             -c:v libx264 -profile:v high -pix_fmt yuv420p -crf 18 -preset veryfast \
+#             -movflags +faststart "${RESULT_PATH}.mp4"
+#         ;;
+#     jpg|jpeg|png|bmp|gif|tiff|tif|webp|svg)
+#         cp $OUTPUT_PATH/000001.$EXT "${RESULT_PATH}.$EXT"
+#         ;;
+#     *)
+#         exit 1
+#         ;;
+# esac
 
 
 # rm -rf ./demo/input_frames

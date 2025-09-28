@@ -9,9 +9,9 @@ CKPT="smplest_x_h"
 FPS=20
 
 # --- Bag01.51470934.20250919201429 ---
-# sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.51470934.20250919201429/clip_01.pkl $FPS
-# sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.51470934.20250919201429/clip_02.pkl $FPS
-# sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.51470934.20250919201429/clip_03.pkl $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.51470934.20250919201429/clip_01.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.51470934.20250919201429/clip_02.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.51470934.20250919201429/clip_03.mp4 $FPS
 
 # --- Bag01.66920734.20250919201429 ---
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.66920734.20250919201429/clip_01.mp4 $FPS
@@ -24,7 +24,7 @@ sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.66920758.2
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.66920758.20250919201429/clip_03.mp4 $FPS
 
 # --- Box01.51470934.20250919201305 ---
-sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/box01.51470934.20250919201305/clip_01.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/box01.51470934.20250919201305/clip_01.mp4 $FPS >> output.log
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/box01.51470934.20250919201305/clip_02.mp4 $FPS
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/box01.51470934.20250919201305/clip_03.mp4 $FPS
 

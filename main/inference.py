@@ -79,6 +79,7 @@ def main():
 
     poses_list = []   # list of (159,) axis-angle vectors, exclude eyes, smplx
     trans_list = []   # list of (3,) translations
+    smplx_joint_cam_list = []  # list of (133,3) joints in camera space
 
     for frame in tqdm(range(start, end)):
         
@@ -164,17 +165,24 @@ def main():
                 lhd  = out['smplx_lhand_pose']  # (1, 45)
                 rhd  = out['smplx_rhand_pose']  # (1, 45)
                 jaw  = out['smplx_jaw_pose']    # (1, 3)
-                trans = out['cam_trans']        # (1, 3)
+                smplx_joint_cam = out['smplx_joint_cam']  # (1, 133, 3)
 
+
+                pelvis   = smplx_joint_cam[:, 0, :]    # (1,3), always is (0,0,0)
+                trans = pelvis  # just set to 0
+                # print(trans.shape)
                 pose_vec = torch.cat([root, body, lhd, rhd, jaw], dim=-1).squeeze(0).detach().cpu().numpy()  # (159,)
                 trans_vec = trans.squeeze(0).detach().cpu().numpy()                                          # (3,)
-
+                smplx_joint_cam = smplx_joint_cam.squeeze(0).detach().cpu().numpy()                          # (133, 3)
+                # raise NotImplementedError
                 poses_list.append(pose_vec)
                 trans_list.append(trans_vec)
+                smplx_joint_cam_list.append(smplx_joint_cam)
             # If nothing was appended for this frame, add NaNs to keep T consistent
             if len(poses_list) < (frame - start + 1):
                 poses_list.append(np.full((159,), np.nan, dtype=np.float32))
                 trans_list.append(np.full((3,),   np.nan, dtype=np.float32))
+                smplx_joint_cam_list.append(np.full((133, 3), np.nan, dtype=np.float32))
                 print(f"Frame {frame}: No valid detections, appending NaNs to results.")
 
             
@@ -186,10 +194,12 @@ def main():
     
     poses = np.stack(poses_list, axis=0)  # (T, 159)
     trans = np.stack(trans_list, axis=0)  # (T, 3)
+    smplx_joints_cam = np.stack(smplx_joint_cam_list, axis=0)  # (T, 133, 3)
 
     required_params = {
         "poses": poses,
         "trans": trans,
+        "smplx_joints_cam": smplx_joints_cam,
         "fps": args.fps
     }
 
