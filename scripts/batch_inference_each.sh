@@ -12,9 +12,7 @@ FPS=20
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/box02.high/2.mov $FPS
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/box02.high/3.mov $FPS
 
-# --- Handle02.high ---
-sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle02.high/1.mov $FPS
-sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle02.high/4.mov $FPS
+
 
 # --- Bag01.51470934.20250919201429 ---
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.51470934.20250919201429/clip_01.mp4 $FPS
@@ -60,6 +58,34 @@ sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle01.6692073
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle01.66920758.20250919200241/clip_01.mp4 $FPS
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle01.66920758.20250919200241/clip_02.mp4 $FPS
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle01.66920758.20250919200241/clip_03.mp4 $FPS
+
+# --- Handle02.high ---
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle02.high/1.mov $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle02.high/4.mov $FPS
+
+# --- Handle_2 Lift---
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle_2/handle_lift_1.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle_2/handle_lift_2.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle_2/handle_lift_3.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle_2/handle_lift_4.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle_2/handle_lift_5.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle_2/handle_lift_6.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle_2/handle_lift_7.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle_2/handle_lift_8.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle_2/handle_lift_9.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/handle_2/handle_lift_10.mp4 $FPS
+
+# --- Handle_2 Carry---
+sh scripts/inference.sh $CKPT imitation_motions/Carry/handle/handle_carry_1.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Carry/handle/handle_carry_2.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Carry/handle/handle_carry_3.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Carry/handle/handle_carry_4.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Carry/handle/handle_carry_5.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Carry/handle/handle_carry_6.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Carry/handle/handle_carry_7.mp4 $FPS
+
+
+
 
 # --- Timber01.51470934.20250919201355 ---
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/timber01.51470934.20250919201355/clip_01.mp4 $FPS
@@ -171,3 +197,6 @@ sh scripts/inference.sh $CKPT imitation_motions/Lift/bad/clips/box_okay_1.mp4 $F
 sh scripts/inference.sh $CKPT imitation_motions/Lift/bad/clips/handle_bad_1.mp4 $FPS
 sh scripts/inference.sh $CKPT imitation_motions/Lift/bad/clips/handle_okay_1.mp4 $FPS
 sh scripts/inference.sh $CKPT imitation_motions/Lift/bad/clips/timber_bad_1.mp4 $FPS
+
+
+sh scripts/inference.sh $CKPT imitation_motions/Lift/bad/clips/timber_bad_1.mp4 $FPS true

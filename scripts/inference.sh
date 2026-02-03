@@ -13,19 +13,19 @@ OUTPUT_PATH=./demo/output_frames/$NAME
 mkdir -p $IMG_PATH
 mkdir -p $OUTPUT_PATH
 
-# convert video to frames
-# case "$EXT" in
-#     mp4|avi|mov|mkv|flv|wmv|webm|mpeg|mpg)
-#         ffmpeg -i ./demo/$FILE_NAME -f image2 -vf fps=${FPS}/1 -qscale 0 ${IMG_PATH}/%06d.jpg 
-#         ;;
-#     jpg|jpeg|png|bmp|gif|tiff|tif|webp|svg)
-#         cp ./demo/$FILE_NAME $IMG_PATH/000001.$EXT
-#         ;;
-#     *)
-#         echo "Unknown file type."
-#         exit 1
-#         ;;
-# esac
+convert video to frames
+case "$EXT" in
+    mp4|avi|mov|mkv|flv|wmv|webm|mpeg|mpg)
+        ffmpeg -i ./demo/$FILE_NAME -f image2 -vf fps=${FPS}/1 -qscale 0 ${IMG_PATH}/%06d.jpg 
+        ;;
+    jpg|jpeg|png|bmp|gif|tiff|tif|webp|svg)
+        cp ./demo/$FILE_NAME $IMG_PATH/000001.$EXT
+        ;;
+    *)
+        echo "Unknown file type."
+        exit 1
+        ;;
+esac
 
 END_COUNT=$(find "$IMG_PATH" -type f | wc -l)
 
