@@ -29,6 +29,29 @@ sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.66920758.2
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.66920758.20250919201429/clip_02.mp4 $FPS
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag01.66920758.20250919201429/clip_03.mp4 $FPS
 
+
+
+# --- bag lift ---
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag/bag_lift_1.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag/bag_lift_2.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag/bag_lift_3.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag/bag_lift_4.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag/bag_lift_5.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag/bag_lift_6.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag/bag_lift_7.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag/bag_lift_8.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag/bag_lift_9.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag/bag_lift_10.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/bag/bag_lift_11.mp4 $FPS
+
+# --- bag carry ---
+sh scripts/inference.sh $CKPT imitation_motions/Carry/bag/bag_carry_1.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Carry/bag/bag_carry_2.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Carry/bag/bag_carry_3.mp4 $FPS
+sh scripts/inference.sh $CKPT imitation_motions/Carry/bag/bag_carry_4.mp4 $FPS
+
+
+
 # --- Box01.51470934.20250919201305 ---
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/box01.51470934.20250919201305/clip_01.mp4 $FPS >> output.log
 sh scripts/inference.sh $CKPT imitation_motions/Lift/good/clips/box01.51470934.20250919201305/clip_02.mp4 $FPS

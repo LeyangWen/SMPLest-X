@@ -1,0 +1,511 @@
+
+Resuming pipeline at Mon 02 Feb 2026 03:04:33 AM EST
+===========================================
+
+[1/72] demo/VEHSR3R4/S01/Activity00.51470934.20230814205832.avi
+  Started:  2026-02-02 03:04:33
+  Ended:    2026-02-02 03:13:36
+  Duration: 543s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity00.51470934.20230814205832.avi
+  Waiting 15s...
+
+[2/72] demo/VEHSR3R4/S01/Activity00.66920731.20230814205832.avi
+  Started:  2026-02-02 03:13:51
+  Ended:    2026-02-02 03:22:41
+  Duration: 530s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity00.66920731.20230814205832.avi
+  Waiting 15s...
+
+[3/72] demo/VEHSR3R4/S01/Activity00.66920734.20230814205832.avi
+  Started:  2026-02-02 03:22:56
+  Ended:    2026-02-02 03:31:45
+  Duration: 529s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity00.66920734.20230814205832.avi
+  Waiting 15s...
+
+[4/72] demo/VEHSR3R4/S01/Activity00.66920758.20230814205832.avi
+  Started:  2026-02-02 03:32:00
+  Ended:    2026-02-02 03:40:47
+  Duration: 527s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity00.66920758.20230814205832.avi
+  Waiting 15s...
+
+[5/72] demo/VEHSR3R4/S01/Activity01.51470934.20230814212646.avi
+  Started:  2026-02-02 03:41:02
+  Ended:    2026-02-02 03:50:01
+  Duration: 539s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity01.51470934.20230814212646.avi
+  Waiting 15s...
+
+[6/72] demo/VEHSR3R4/S01/Activity01.66920731.20230814212646.avi
+  Started:  2026-02-02 03:50:16
+  Ended:    2026-02-02 03:59:15
+  Duration: 539s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity01.66920731.20230814212646.avi
+  Waiting 15s...
+
+[7/72] demo/VEHSR3R4/S01/Activity01.66920734.20230814212646.avi
+  Started:  2026-02-02 03:59:30
+  Ended:    2026-02-02 04:08:31
+  Duration: 541s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity01.66920734.20230814212646.avi
+  Waiting 15s...
+
+[8/72] demo/VEHSR3R4/S01/Activity01.66920758.20230814212646.avi
+  Started:  2026-02-02 04:08:46
+  Ended:    2026-02-02 04:17:45
+  Duration: 539s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity01.66920758.20230814212646.avi
+  Waiting 15s...
+
+[9/72] demo/VEHSR3R4/S01/Activity02.51470934.20230814215326.avi
+  Started:  2026-02-02 04:18:00
+  Ended:    2026-02-02 04:26:49
+  Duration: 529s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity02.51470934.20230814215326.avi
+  Waiting 15s...
+
+[10/72] demo/VEHSR3R4/S01/Activity02.66920731.20230814215326.avi
+  Started:  2026-02-02 04:27:04
+  Ended:    2026-02-02 04:35:54
+  Duration: 530s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity02.66920731.20230814215326.avi
+  Waiting 15s...
+
+[11/72] demo/VEHSR3R4/S01/Activity02.66920734.20230814215326.avi
+  Started:  2026-02-02 04:36:09
+  Ended:    2026-02-02 04:44:58
+  Duration: 529s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity02.66920734.20230814215326.avi
+  Waiting 15s...
+
+[12/72] demo/VEHSR3R4/S01/Activity02.66920758.20230814215326.avi
+  Started:  2026-02-02 04:45:13
+  Ended:    2026-02-02 04:54:01
+  Duration: 528s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity02.66920758.20230814215326.avi
+  Waiting 15s...
+
+[13/72] demo/VEHSR3R4/S01/Activity03.51470934.20230814230120.avi
+  Started:  2026-02-02 04:54:16
+  Ended:    2026-02-02 05:03:28
+  Duration: 552s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity03.51470934.20230814230120.avi
+  Waiting 15s...
+
+[14/72] demo/VEHSR3R4/S01/Activity03.66920731.20230814230120.avi
+  Started:  2026-02-02 05:03:43
+  Ended:    2026-02-02 05:12:54
+  Duration: 551s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity03.66920731.20230814230120.avi
+  Waiting 15s...
+
+[15/72] demo/VEHSR3R4/S01/Activity03.66920734.20230814230120.avi
+  Started:  2026-02-02 05:13:09
+  Ended:    2026-02-02 05:22:19
+  Duration: 550s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity03.66920734.20230814230120.avi
+  Waiting 15s...
+
+[16/72] demo/VEHSR3R4/S01/Activity03.66920758.20230814230120.avi
+  Started:  2026-02-02 05:22:35
+  Ended:    2026-02-02 05:31:43
+  Duration: 548s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity03.66920758.20230814230120.avi
+  Waiting 15s...
+
+[17/72] demo/VEHSR3R4/S01/Activity04.51470934.20230814232811.avi
+  Started:  2026-02-02 05:31:58
+  Ended:    2026-02-02 05:42:08
+  Duration: 610s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity04.51470934.20230814232811.avi
+  Waiting 15s...
+
+[18/72] demo/VEHSR3R4/S01/Activity04.66920731.20230814232811.avi
+  Started:  2026-02-02 05:42:23
+  Ended:    2026-02-02 05:52:25
+  Duration: 602s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity04.66920731.20230814232811.avi
+  Waiting 15s...
+
+[19/72] demo/VEHSR3R4/S01/Activity04.66920734.20230814232811.avi
+  Started:  2026-02-02 05:52:40
+  Ended:    2026-02-02 06:02:43
+  Duration: 603s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity04.66920734.20230814232811.avi
+  Waiting 15s...
+
+[20/72] demo/VEHSR3R4/S01/Activity04.66920758.20230814232811.avi
+  Started:  2026-02-02 06:02:58
+  Ended:    2026-02-02 06:13:01
+  Duration: 603s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity04.66920758.20230814232811.avi
+  Waiting 15s...
+
+[21/72] demo/VEHSR3R4/S01/Activity05.51470934.20230814235700.avi
+  Started:  2026-02-02 06:13:16
+  Ended:    2026-02-02 06:22:36
+  Duration: 560s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity05.51470934.20230814235700.avi
+  Waiting 15s...
+
+[22/72] demo/VEHSR3R4/S01/Activity05.66920731.20230814235700.avi
+  Started:  2026-02-02 06:22:51
+  Ended:    2026-02-02 06:32:10
+  Duration: 559s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity05.66920731.20230814235700.avi
+  Waiting 15s...
+
+[23/72] demo/VEHSR3R4/S01/Activity05.66920734.20230814235700.avi
+  Started:  2026-02-02 06:32:25
+  Ended:    2026-02-02 06:41:43
+  Duration: 558s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity05.66920734.20230814235700.avi
+  Waiting 15s...
+
+[24/72] demo/VEHSR3R4/S01/Activity05.66920758.20230814235700.avi
+  Started:  2026-02-02 06:41:58
+  Ended:    2026-02-02 06:51:17
+  Duration: 559s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity05.66920758.20230814235700.avi
+  Waiting 15s...
+
+[25/72] demo/VEHSR3R4/S01/Activity06.51470934.20230815002502.avi
+  Started:  2026-02-02 06:51:32
+  Ended:    2026-02-02 07:00:36
+  Duration: 544s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity06.51470934.20230815002502.avi
+  Waiting 15s...
+
+[26/72] demo/VEHSR3R4/S01/Activity06.66920731.20230815002502.avi
+  Started:  2026-02-02 07:00:51
+  Ended:    2026-02-02 07:09:55
+  Duration: 544s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity06.66920731.20230815002502.avi
+  Waiting 15s...
+
+[27/72] demo/VEHSR3R4/S01/Activity06.66920734.20230815002502.avi
+  Started:  2026-02-02 07:10:10
+  Ended:    2026-02-02 07:19:12
+  Duration: 542s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity06.66920734.20230815002502.avi
+  Waiting 15s...
+
+[28/72] demo/VEHSR3R4/S01/Activity06.66920758.20230815002502.avi
+  Started:  2026-02-02 07:19:27
+  Ended:    2026-02-02 07:28:29
+  Duration: 542s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity06.66920758.20230815002502.avi
+  Waiting 15s...
+
+[29/72] demo/VEHSR3R4/S01/Activity07.51470934.20230815005232.avi
+  Started:  2026-02-02 07:28:44
+  Ended:    2026-02-02 07:38:03
+  Duration: 559s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity07.51470934.20230815005232.avi
+  Waiting 15s...
+
+[30/72] demo/VEHSR3R4/S01/Activity07.66920731.20230815005232.avi
+  Started:  2026-02-02 07:38:18
+  Ended:    2026-02-02 07:47:36
+  Duration: 558s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity07.66920731.20230815005232.avi
+  Waiting 15s...
+
+[31/72] demo/VEHSR3R4/S01/Activity07.66920734.20230815005232.avi
+  Started:  2026-02-02 07:47:51
+  Ended:    2026-02-02 07:57:10
+  Duration: 559s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity07.66920734.20230815005232.avi
+  Waiting 15s...
+
+[32/72] demo/VEHSR3R4/S01/Activity07.66920758.20230815005232.avi
+  Started:  2026-02-02 07:57:25
+  Ended:    2026-02-02 08:06:40
+  Duration: 555s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity07.66920758.20230815005232.avi
+  Waiting 15s...
+
+[33/72] demo/VEHSR3R4/S01/Activity08.51470934.20230815012101.avi
+  Started:  2026-02-02 08:06:55
+  Ended:    2026-02-02 08:16:09
+  Duration: 554s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity08.51470934.20230815012101.avi
+  Waiting 15s...
+
+[34/72] demo/VEHSR3R4/S01/Activity08.66920731.20230815012101.avi
+  Started:  2026-02-02 08:16:24
+  Ended:    2026-02-02 08:25:39
+  Duration: 555s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity08.66920731.20230815012101.avi
+  Waiting 15s...
+
+[35/72] demo/VEHSR3R4/S01/Activity08.66920734.20230815012101.avi
+  Started:  2026-02-02 08:25:54
+  Ended:    2026-02-02 08:35:08
+  Duration: 554s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity08.66920734.20230815012101.avi
+  Waiting 15s...
+
+[36/72] demo/VEHSR3R4/S01/Activity08.66920758.20230815012101.avi
+  Started:  2026-02-02 08:35:23
+  Ended:    2026-02-02 08:44:36
+  Duration: 553s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity08.66920758.20230815012101.avi
+  Waiting 15s...
+
+[37/72] demo/VEHSR3R4/S05/activity00.51470934.20230825160424.avi
+  Started:  2026-02-02 08:44:52
+  Ended:    2026-02-02 08:54:17
+  Duration: 565s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity00.51470934.20230825160424.avi
+  Waiting 15s...
+
+[38/72] demo/VEHSR3R4/S05/activity00.66920731.20230825160424.avi
+  Started:  2026-02-02 08:54:32
+  Ended:    2026-02-02 09:04:00
+  Duration: 568s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity00.66920731.20230825160424.avi
+  Waiting 15s...
+
+[39/72] demo/VEHSR3R4/S05/activity00.66920734.20230825160424.avi
+  Started:  2026-02-02 09:04:15
+  Ended:    2026-02-02 09:13:40
+  Duration: 565s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity00.66920734.20230825160424.avi
+  Waiting 15s...
+
+[40/72] demo/VEHSR3R4/S05/activity00.66920758.20230825160424.avi
+  Started:  2026-02-02 09:13:55
+  Ended:    2026-02-02 09:23:17
+  Duration: 562s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity00.66920758.20230825160424.avi
+  Waiting 15s...
+
+[41/72] demo/VEHSR3R4/S05/activity01.51470934.20230825163639.avi
+  Started:  2026-02-02 09:23:32
+  Ended:    2026-02-02 09:32:49
+  Duration: 557s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity01.51470934.20230825163639.avi
+  Waiting 15s...
+
+[42/72] demo/VEHSR3R4/S05/activity01.66920731.20230825163639.avi
+  Started:  2026-02-02 09:33:04
+  Ended:    2026-02-02 09:42:21
+  Duration: 557s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity01.66920731.20230825163639.avi
+  Waiting 15s...
+
+[43/72] demo/VEHSR3R4/S05/activity01.66920734.20230825163639.avi
+  Started:  2026-02-02 09:42:36
+  Ended:    2026-02-02 09:51:53
+  Duration: 557s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity01.66920734.20230825163639.avi
+  Waiting 15s...
+
+[44/72] demo/VEHSR3R4/S05/activity01.66920758.20230825163639.avi
+  Started:  2026-02-02 09:52:08
+  Ended:    2026-02-02 10:01:24
+  Duration: 556s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity01.66920758.20230825163639.avi
+  Waiting 15s...
+
+[45/72] demo/VEHSR3R4/S05/Activity02.51470934.20230825172346.avi
+  Started:  2026-02-02 10:01:39
+  Ended:    2026-02-02 10:11:28
+  Duration: 589s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity02.51470934.20230825172346.avi
+  Waiting 15s...
+
+[46/72] demo/VEHSR3R4/S05/Activity02.66920731.20230825172346.avi
+  Started:  2026-02-02 10:11:43
+  Ended:    2026-02-02 10:21:30
+  Duration: 587s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity02.66920731.20230825172346.avi
+  Waiting 15s...
+
+[47/72] demo/VEHSR3R4/S05/Activity02.66920734.20230825172346.avi
+  Started:  2026-02-02 10:21:45
+  Ended:    2026-02-02 10:31:32
+  Duration: 587s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity02.66920734.20230825172346.avi
+  Waiting 15s...
+
+[48/72] demo/VEHSR3R4/S05/Activity02.66920758.20230825172346.avi
+  Started:  2026-02-02 10:31:47
+  Ended:    2026-02-02 10:41:33
+  Duration: 586s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity02.66920758.20230825172346.avi
+  Waiting 15s...
+
+[49/72] demo/VEHSR3R4/S05/Activity03.51470934.20230825175233.avi
+  Started:  2026-02-02 10:41:48
+  Ended:    2026-02-02 10:51:57
+  Duration: 609s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity03.51470934.20230825175233.avi
+  Waiting 15s...
+
+[50/72] demo/VEHSR3R4/S05/Activity03.66920731.20230825175233.avi
+  Started:  2026-02-02 10:52:12
+  Ended:    2026-02-02 11:02:21
+  Duration: 609s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity03.66920731.20230825175233.avi
+  Waiting 15s...
+
+[51/72] demo/VEHSR3R4/S05/Activity03.66920734.20230825175233.avi
+  Started:  2026-02-02 11:02:36
+  Ended:    2026-02-02 11:12:46
+  Duration: 610s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity03.66920734.20230825175233.avi
+  Waiting 15s...
+
+[52/72] demo/VEHSR3R4/S05/Activity03.66920758.20230825175233.avi
+  Started:  2026-02-02 11:13:01
+  Ended:    2026-02-02 11:23:10
+  Duration: 609s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity03.66920758.20230825175233.avi
+  Waiting 15s...
+
+[53/72] demo/VEHSR3R4/S05/Activity04.51470934.20230825182302.avi
+  Started:  2026-02-02 11:23:25
+  Ended:    2026-02-02 11:32:32
+  Duration: 547s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity04.51470934.20230825182302.avi
+  Waiting 15s...
+
+[54/72] demo/VEHSR3R4/S05/Activity04.66920731.20230825182302.avi
+  Started:  2026-02-02 11:32:47
+  Ended:    2026-02-02 11:41:38
+  Duration: 531s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity04.66920731.20230825182302.avi
+  Waiting 15s...
+
+[55/72] demo/VEHSR3R4/S05/Activity04.66920734.20230825182302.avi
+  Started:  2026-02-02 11:41:53
+  Ended:    2026-02-02 11:51:05
+  Duration: 552s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity04.66920734.20230825182302.avi
+  Waiting 15s...
+
+[56/72] demo/VEHSR3R4/S05/Activity04.66920758.20230825182302.avi
+  Started:  2026-02-02 11:51:20
+  Ended:    2026-02-02 12:00:24
+  Duration: 544s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity04.66920758.20230825182302.avi
+  Waiting 15s...
+
+[57/72] demo/VEHSR3R4/S05/Activity05.51470934.20230825185132.avi
+  Started:  2026-02-02 12:00:39
+  Ended:    2026-02-02 12:10:32
+  Duration: 593s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity05.51470934.20230825185132.avi
+  Waiting 15s...
+
+[58/72] demo/VEHSR3R4/S05/Activity05.66920731.20230825185132.avi
+  Started:  2026-02-02 12:10:47
+  Ended:    2026-02-02 12:20:45
+  Duration: 598s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity05.66920731.20230825185132.avi
+  Waiting 15s...
+
+[59/72] demo/VEHSR3R4/S05/Activity05.66920734.20230825185132.avi
+  Started:  2026-02-02 12:21:00
+  Ended:    2026-02-02 12:30:59
+  Duration: 599s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity05.66920734.20230825185132.avi
+  Waiting 15s...
+
+[60/72] demo/VEHSR3R4/S05/Activity05.66920758.20230825185132.avi
+  Started:  2026-02-02 12:31:14
+  Ended:    2026-02-02 12:41:11
+  Duration: 597s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity05.66920758.20230825185132.avi
+  Waiting 15s...
+
+[61/72] demo/VEHSR3R4/S05/Activity06.51470934.20230825192231.avi
+  Started:  2026-02-02 12:41:27
+  Ended:    2026-02-02 12:50:40
+  Duration: 553s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity06.51470934.20230825192231.avi
+  Waiting 15s...
+
+[62/72] demo/VEHSR3R4/S05/Activity06.66920731.20230825192231.avi
+  Started:  2026-02-02 12:50:55
+  Ended:    2026-02-02 12:59:30
+  Duration: 515s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity06.66920731.20230825192231.avi
+  Waiting 15s...
+
+[63/72] demo/VEHSR3R4/S05/Activity06.66920734.20230825192231.avi
+  Started:  2026-02-02 12:59:45
+  Ended:    2026-02-02 13:08:58
+  Duration: 553s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity06.66920734.20230825192231.avi
+  Waiting 15s...
+
+[64/72] demo/VEHSR3R4/S05/Activity06.66920758.20230825192231.avi
+  Started:  2026-02-02 13:09:13
+  Ended:    2026-02-02 13:18:26
+  Duration: 553s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity06.66920758.20230825192231.avi
+  Waiting 15s...
+
+[65/72] demo/VEHSR3R4/S05/Activity07.51470934.20230825195104.avi
+  Started:  2026-02-02 13:18:41
+  Ended:    2026-02-02 13:27:50
+  Duration: 549s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity07.51470934.20230825195104.avi
+  Waiting 15s...
+
+[66/72] demo/VEHSR3R4/S05/Activity07.66920731.20230825195104.avi
+  Started:  2026-02-02 13:28:05
+  Ended:    2026-02-02 13:37:14
+  Duration: 549s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity07.66920731.20230825195104.avi
+  Waiting 15s...
+
+[67/72] demo/VEHSR3R4/S05/Activity07.66920734.20230825195104.avi
+  Started:  2026-02-02 13:37:29
+  Ended:    2026-02-02 13:46:40
+  Duration: 551s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity07.66920734.20230825195104.avi
+  Waiting 15s...
+
+[68/72] demo/VEHSR3R4/S05/Activity07.66920758.20230825195104.avi
+  Started:  2026-02-02 13:46:55
+  Ended:    2026-02-02 13:56:07
+  Duration: 552s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity07.66920758.20230825195104.avi
+  Waiting 15s...
+
+[69/72] demo/VEHSR3R4/S05/Activity08.51470934.20230825202309.avi
+  Started:  2026-02-02 13:56:22
+  Ended:    2026-02-02 14:05:39
+  Duration: 557s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity08.51470934.20230825202309.avi
+  Waiting 15s...
+
+[70/72] demo/VEHSR3R4/S05/Activity08.66920731.20230825202309.avi
+  Started:  2026-02-02 14:05:54
+  Ended:    2026-02-02 14:15:16
+  Duration: 562s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity08.66920731.20230825202309.avi
+  Waiting 15s...
+
+[71/72] demo/VEHSR3R4/S05/Activity08.66920734.20230825202309.avi
+  Started:  2026-02-02 14:15:31
+  Ended:    2026-02-02 14:24:53
+  Duration: 562s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity08.66920734.20230825202309.avi
+  Waiting 15s...
+
+[72/72] demo/VEHSR3R4/S05/Activity08.66920758.20230825202309.avi
+  Started:  2026-02-02 14:25:08
+  Ended:    2026-02-02 14:34:28
+  Duration: 560s
+  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity08.66920758.20230825202309.avi
+
+===========================================
+Pipeline completed at Mon 02 Feb 2026 02:34:28 PM EST
+Total videos: 72 | Processed: 72 | Skipped: 0
+Log saved to: ./logs/inference_progress.log

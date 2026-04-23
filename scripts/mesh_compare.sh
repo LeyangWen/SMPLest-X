@@ -7,7 +7,7 @@
 
 CKPT="smplest_x_h"
 FPS=20
-SKIP_RENDER=true
+SKIP_RENDER=false
 
 # Create log directory
 LOG_DIR="./logs"
@@ -35,8 +35,10 @@ echo "Log file: $LOG_FILE"
 
 # Get all .avi files from both directories
 FILES=(
-    demo/VEHSR3R4/S01/*.avi
-    demo/VEHSR3R4/S05/*.avi
+    # demo/VEHSR3R4/S01/*.avi
+    # demo/VEHSR3R4/S05/*.avi
+    demo/worker_motion/*/*.MOV
+    demo/worker_motion/*/*.mp4
 )
 
 # Expand the glob patterns

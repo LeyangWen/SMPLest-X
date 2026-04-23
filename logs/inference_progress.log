@@ -1,511 +1,467 @@
-
-Resuming pipeline at Mon 02 Feb 2026 03:04:33 AM EST
+Starting inference pipeline at Mon 02 Mar 2026 09:32:32 PM EST
 ===========================================
 
-[1/72] demo/VEHSR3R4/S01/Activity00.51470934.20230814205832.avi
-  Started:  2026-02-02 03:04:33
-  Ended:    2026-02-02 03:13:36
-  Duration: 543s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity00.51470934.20230814205832.avi
+[1/63] demo/worker_motion/S01/bag_l.MOV
+  Started:  2026-03-02 21:32:32
+  Ended:    2026-03-02 21:32:32
+  Duration: 0s
+  Status:   ✗ FAILED (exit code: 1) - demo/worker_motion/S01/bag_l.MOV
   Waiting 15s...
 
-[2/72] demo/VEHSR3R4/S01/Activity00.66920731.20230814205832.avi
-  Started:  2026-02-02 03:13:51
-  Ended:    2026-02-02 03:22:41
-  Duration: 530s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity00.66920731.20230814205832.avi
-  Waiting 15s...
-
-[3/72] demo/VEHSR3R4/S01/Activity00.66920734.20230814205832.avi
-  Started:  2026-02-02 03:22:56
-  Ended:    2026-02-02 03:31:45
-  Duration: 529s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity00.66920734.20230814205832.avi
-  Waiting 15s...
-
-[4/72] demo/VEHSR3R4/S01/Activity00.66920758.20230814205832.avi
-  Started:  2026-02-02 03:32:00
-  Ended:    2026-02-02 03:40:47
-  Duration: 527s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity00.66920758.20230814205832.avi
-  Waiting 15s...
-
-[5/72] demo/VEHSR3R4/S01/Activity01.51470934.20230814212646.avi
-  Started:  2026-02-02 03:41:02
-  Ended:    2026-02-02 03:50:01
-  Duration: 539s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity01.51470934.20230814212646.avi
-  Waiting 15s...
-
-[6/72] demo/VEHSR3R4/S01/Activity01.66920731.20230814212646.avi
-  Started:  2026-02-02 03:50:16
-  Ended:    2026-02-02 03:59:15
-  Duration: 539s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity01.66920731.20230814212646.avi
-  Waiting 15s...
+Resuming pipeline at Mon 02 Mar 2026 09:36:33 PM EST
+===========================================
 
-[7/72] demo/VEHSR3R4/S01/Activity01.66920734.20230814212646.avi
-  Started:  2026-02-02 03:59:30
-  Ended:    2026-02-02 04:08:31
-  Duration: 541s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity01.66920734.20230814212646.avi
+[1/63] demo/worker_motion/S01/bag_l.MOV
+  Started:  2026-03-02 21:36:33
+  Ended:    2026-03-02 21:36:33
+  Duration: 0s
+  Status:   ✗ FAILED (exit code: 1) - demo/worker_motion/S01/bag_l.MOV
   Waiting 15s...
 
-[8/72] demo/VEHSR3R4/S01/Activity01.66920758.20230814212646.avi
-  Started:  2026-02-02 04:08:46
-  Ended:    2026-02-02 04:17:45
-  Duration: 539s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity01.66920758.20230814212646.avi
-  Waiting 15s...
-
-[9/72] demo/VEHSR3R4/S01/Activity02.51470934.20230814215326.avi
-  Started:  2026-02-02 04:18:00
-  Ended:    2026-02-02 04:26:49
-  Duration: 529s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity02.51470934.20230814215326.avi
-  Waiting 15s...
+Resuming pipeline at Mon 02 Mar 2026 09:37:54 PM EST
+===========================================
 
-[10/72] demo/VEHSR3R4/S01/Activity02.66920731.20230814215326.avi
-  Started:  2026-02-02 04:27:04
-  Ended:    2026-02-02 04:35:54
-  Duration: 530s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity02.66920731.20230814215326.avi
+[1/63] demo/worker_motion/S01/bag_l.MOV
+  Started:  2026-03-02 21:37:54
+  Ended:    2026-03-02 21:39:44
+  Duration: 110s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/bag_l.MOV
   Waiting 15s...
 
-[11/72] demo/VEHSR3R4/S01/Activity02.66920734.20230814215326.avi
-  Started:  2026-02-02 04:36:09
-  Ended:    2026-02-02 04:44:58
-  Duration: 529s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity02.66920734.20230814215326.avi
+[2/63] demo/worker_motion/S01/bag_slide.MOV
+  Started:  2026-03-02 21:39:59
+  Ended:    2026-03-02 21:42:01
+  Duration: 122s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/bag_slide.MOV
   Waiting 15s...
 
-[12/72] demo/VEHSR3R4/S01/Activity02.66920758.20230814215326.avi
-  Started:  2026-02-02 04:45:13
-  Ended:    2026-02-02 04:54:01
-  Duration: 528s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity02.66920758.20230814215326.avi
+[3/63] demo/worker_motion/S01/bag_s.MOV
+  Started:  2026-03-02 21:42:16
+  Ended:    2026-03-02 21:44:25
+  Duration: 129s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/bag_s.MOV
   Waiting 15s...
 
-[13/72] demo/VEHSR3R4/S01/Activity03.51470934.20230814230120.avi
-  Started:  2026-02-02 04:54:16
-  Ended:    2026-02-02 05:03:28
-  Duration: 552s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity03.51470934.20230814230120.avi
+[4/63] demo/worker_motion/S01/bag_step.MOV
+  Started:  2026-03-02 21:44:40
+  Ended:    2026-03-02 21:46:18
+  Duration: 98s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/bag_step.MOV
   Waiting 15s...
 
-[14/72] demo/VEHSR3R4/S01/Activity03.66920731.20230814230120.avi
-  Started:  2026-02-02 05:03:43
-  Ended:    2026-02-02 05:12:54
-  Duration: 551s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity03.66920731.20230814230120.avi
+[5/63] demo/worker_motion/S01/box_l_10lbs.MOV
+  Started:  2026-03-02 21:46:33
+  Ended:    2026-03-02 21:48:28
+  Duration: 115s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/box_l_10lbs.MOV
   Waiting 15s...
 
-[15/72] demo/VEHSR3R4/S01/Activity03.66920734.20230814230120.avi
-  Started:  2026-02-02 05:13:09
-  Ended:    2026-02-02 05:22:19
-  Duration: 550s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity03.66920734.20230814230120.avi
+[6/63] demo/worker_motion/S01/box_l_20lbs.MOV
+  Started:  2026-03-02 21:48:43
+  Ended:    2026-03-02 21:50:39
+  Duration: 116s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/box_l_20lbs.MOV
   Waiting 15s...
 
-[16/72] demo/VEHSR3R4/S01/Activity03.66920758.20230814230120.avi
-  Started:  2026-02-02 05:22:35
-  Ended:    2026-02-02 05:31:43
-  Duration: 548s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity03.66920758.20230814230120.avi
+[7/63] demo/worker_motion/S01/box_s_10lbs.MOV
+  Started:  2026-03-02 21:50:54
+  Ended:    2026-03-02 21:52:37
+  Duration: 103s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/box_s_10lbs.MOV
   Waiting 15s...
 
-[17/72] demo/VEHSR3R4/S01/Activity04.51470934.20230814232811.avi
-  Started:  2026-02-02 05:31:58
-  Ended:    2026-02-02 05:42:08
-  Duration: 610s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity04.51470934.20230814232811.avi
+[8/63] demo/worker_motion/S01/box_s_20lbs.MOV
+  Started:  2026-03-02 21:52:52
+  Ended:    2026-03-02 21:54:34
+  Duration: 102s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/box_s_20lbs.MOV
   Waiting 15s...
 
-[18/72] demo/VEHSR3R4/S01/Activity04.66920731.20230814232811.avi
-  Started:  2026-02-02 05:42:23
-  Ended:    2026-02-02 05:52:25
-  Duration: 602s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity04.66920731.20230814232811.avi
+[9/63] demo/worker_motion/S01/box_slide.MOV
+  Started:  2026-03-02 21:54:49
+  Ended:    2026-03-02 21:57:02
+  Duration: 133s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/box_slide.MOV
   Waiting 15s...
 
-[19/72] demo/VEHSR3R4/S01/Activity04.66920734.20230814232811.avi
-  Started:  2026-02-02 05:52:40
-  Ended:    2026-02-02 06:02:43
-  Duration: 603s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity04.66920734.20230814232811.avi
+[10/63] demo/worker_motion/S01/box_step.MOV
+  Started:  2026-03-02 21:57:17
+  Ended:    2026-03-02 21:58:53
+  Duration: 96s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/box_step.MOV
   Waiting 15s...
 
-[20/72] demo/VEHSR3R4/S01/Activity04.66920758.20230814232811.avi
-  Started:  2026-02-02 06:02:58
-  Ended:    2026-02-02 06:13:01
-  Duration: 603s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity04.66920758.20230814232811.avi
+[11/63] demo/worker_motion/S01/handle_l_10lbs.MOV
+  Started:  2026-03-02 21:59:08
+  Ended:    2026-03-02 22:00:41
+  Duration: 93s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/handle_l_10lbs.MOV
   Waiting 15s...
 
-[21/72] demo/VEHSR3R4/S01/Activity05.51470934.20230814235700.avi
-  Started:  2026-02-02 06:13:16
-  Ended:    2026-02-02 06:22:36
-  Duration: 560s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity05.51470934.20230814235700.avi
+[12/63] demo/worker_motion/S01/handle_l_20lbs.MOV
+  Started:  2026-03-02 22:00:56
+  Ended:    2026-03-02 22:02:18
+  Duration: 82s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/handle_l_20lbs.MOV
   Waiting 15s...
 
-[22/72] demo/VEHSR3R4/S01/Activity05.66920731.20230814235700.avi
-  Started:  2026-02-02 06:22:51
-  Ended:    2026-02-02 06:32:10
-  Duration: 559s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity05.66920731.20230814235700.avi
+[13/63] demo/worker_motion/S01/handle_s_10lbs.MOV
+  Started:  2026-03-02 22:02:33
+  Ended:    2026-03-02 22:03:50
+  Duration: 77s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/handle_s_10lbs.MOV
   Waiting 15s...
 
-[23/72] demo/VEHSR3R4/S01/Activity05.66920734.20230814235700.avi
-  Started:  2026-02-02 06:32:25
-  Ended:    2026-02-02 06:41:43
-  Duration: 558s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity05.66920734.20230814235700.avi
+[14/63] demo/worker_motion/S01/handle_s_20lbs.MOV
+  Started:  2026-03-02 22:04:05
+  Ended:    2026-03-02 22:05:29
+  Duration: 84s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/handle_s_20lbs.MOV
   Waiting 15s...
 
-[24/72] demo/VEHSR3R4/S01/Activity05.66920758.20230814235700.avi
-  Started:  2026-02-02 06:41:58
-  Ended:    2026-02-02 06:51:17
-  Duration: 559s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity05.66920758.20230814235700.avi
+[15/63] demo/worker_motion/S01/handle_slide.MOV
+  Started:  2026-03-02 22:05:45
+  Ended:    2026-03-02 22:07:34
+  Duration: 109s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/handle_slide.MOV
   Waiting 15s...
 
-[25/72] demo/VEHSR3R4/S01/Activity06.51470934.20230815002502.avi
-  Started:  2026-02-02 06:51:32
-  Ended:    2026-02-02 07:00:36
-  Duration: 544s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity06.51470934.20230815002502.avi
+[16/63] demo/worker_motion/S01/handle_step.MOV
+  Started:  2026-03-02 22:07:49
+  Ended:    2026-03-02 22:09:19
+  Duration: 90s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/handle_step.MOV
   Waiting 15s...
 
-[26/72] demo/VEHSR3R4/S01/Activity06.66920731.20230815002502.avi
-  Started:  2026-02-02 07:00:51
-  Ended:    2026-02-02 07:09:55
-  Duration: 544s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity06.66920731.20230815002502.avi
+[17/63] demo/worker_motion/S01/timber_l.MOV
+  Started:  2026-03-02 22:09:34
+  Ended:    2026-03-02 22:11:15
+  Duration: 101s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/timber_l.MOV
   Waiting 15s...
 
-[27/72] demo/VEHSR3R4/S01/Activity06.66920734.20230815002502.avi
-  Started:  2026-02-02 07:10:10
-  Ended:    2026-02-02 07:19:12
-  Duration: 542s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity06.66920734.20230815002502.avi
+[18/63] demo/worker_motion/S01/timber_slide.MOV
+  Started:  2026-03-02 22:11:30
+  Ended:    2026-03-02 22:13:43
+  Duration: 133s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/timber_slide.MOV
   Waiting 15s...
 
-[28/72] demo/VEHSR3R4/S01/Activity06.66920758.20230815002502.avi
-  Started:  2026-02-02 07:19:27
-  Ended:    2026-02-02 07:28:29
-  Duration: 542s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity06.66920758.20230815002502.avi
+[19/63] demo/worker_motion/S01/timber_s.MOV
+  Started:  2026-03-02 22:13:58
+  Ended:    2026-03-02 22:15:22
+  Duration: 84s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/timber_s.MOV
   Waiting 15s...
 
-[29/72] demo/VEHSR3R4/S01/Activity07.51470934.20230815005232.avi
-  Started:  2026-02-02 07:28:44
-  Ended:    2026-02-02 07:38:03
-  Duration: 559s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity07.51470934.20230815005232.avi
+[20/63] demo/worker_motion/S01/timber_step_2.MOV
+  Started:  2026-03-02 22:15:37
+  Ended:    2026-03-02 22:17:09
+  Duration: 92s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/timber_step_2.MOV
   Waiting 15s...
 
-[30/72] demo/VEHSR3R4/S01/Activity07.66920731.20230815005232.avi
-  Started:  2026-02-02 07:38:18
-  Ended:    2026-02-02 07:47:36
-  Duration: 558s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity07.66920731.20230815005232.avi
+[21/63] demo/worker_motion/S01/timber_step.MOV
+  Started:  2026-03-02 22:17:24
+  Ended:    2026-03-02 22:19:04
+  Duration: 100s
+  Status:   ✓ SUCCESS - demo/worker_motion/S01/timber_step.MOV
   Waiting 15s...
 
-[31/72] demo/VEHSR3R4/S01/Activity07.66920734.20230815005232.avi
-  Started:  2026-02-02 07:47:51
-  Ended:    2026-02-02 07:57:10
-  Duration: 559s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity07.66920734.20230815005232.avi
+[22/63] demo/worker_motion/S02/bag_l.MOV
+  Started:  2026-03-02 22:19:19
+  Ended:    2026-03-02 22:21:17
+  Duration: 118s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/bag_l.MOV
   Waiting 15s...
 
-[32/72] demo/VEHSR3R4/S01/Activity07.66920758.20230815005232.avi
-  Started:  2026-02-02 07:57:25
-  Ended:    2026-02-02 08:06:40
-  Duration: 555s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity07.66920758.20230815005232.avi
+[23/63] demo/worker_motion/S02/bag_slide.MOV
+  Started:  2026-03-02 22:21:32
+  Ended:    2026-03-02 22:23:57
+  Duration: 145s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/bag_slide.MOV
   Waiting 15s...
 
-[33/72] demo/VEHSR3R4/S01/Activity08.51470934.20230815012101.avi
-  Started:  2026-02-02 08:06:55
-  Ended:    2026-02-02 08:16:09
-  Duration: 554s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity08.51470934.20230815012101.avi
+[24/63] demo/worker_motion/S02/bag_s.MOV
+  Started:  2026-03-02 22:24:12
+  Ended:    2026-03-02 22:25:47
+  Duration: 95s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/bag_s.MOV
   Waiting 15s...
 
-[34/72] demo/VEHSR3R4/S01/Activity08.66920731.20230815012101.avi
-  Started:  2026-02-02 08:16:24
-  Ended:    2026-02-02 08:25:39
-  Duration: 555s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity08.66920731.20230815012101.avi
+[25/63] demo/worker_motion/S02/bag_step_2.MOV
+  Started:  2026-03-02 22:26:02
+  Ended:    2026-03-02 22:27:35
+  Duration: 93s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/bag_step_2.MOV
   Waiting 15s...
 
-[35/72] demo/VEHSR3R4/S01/Activity08.66920734.20230815012101.avi
-  Started:  2026-02-02 08:25:54
-  Ended:    2026-02-02 08:35:08
-  Duration: 554s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity08.66920734.20230815012101.avi
+[26/63] demo/worker_motion/S02/bag_step.MOV
+  Started:  2026-03-02 22:27:50
+  Ended:    2026-03-02 22:29:34
+  Duration: 104s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/bag_step.MOV
   Waiting 15s...
 
-[36/72] demo/VEHSR3R4/S01/Activity08.66920758.20230815012101.avi
-  Started:  2026-02-02 08:35:23
-  Ended:    2026-02-02 08:44:36
-  Duration: 553s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S01/Activity08.66920758.20230815012101.avi
+[27/63] demo/worker_motion/S02/box_l_10lbs.MOV
+  Started:  2026-03-02 22:29:49
+  Ended:    2026-03-02 22:31:34
+  Duration: 105s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/box_l_10lbs.MOV
   Waiting 15s...
 
-[37/72] demo/VEHSR3R4/S05/activity00.51470934.20230825160424.avi
-  Started:  2026-02-02 08:44:52
-  Ended:    2026-02-02 08:54:17
-  Duration: 565s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity00.51470934.20230825160424.avi
+[28/63] demo/worker_motion/S02/box_l_20lbs.MOV
+  Started:  2026-03-02 22:31:49
+  Ended:    2026-03-02 22:33:59
+  Duration: 130s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/box_l_20lbs.MOV
   Waiting 15s...
 
-[38/72] demo/VEHSR3R4/S05/activity00.66920731.20230825160424.avi
-  Started:  2026-02-02 08:54:32
-  Ended:    2026-02-02 09:04:00
-  Duration: 568s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity00.66920731.20230825160424.avi
+[29/63] demo/worker_motion/S02/box_s_10lbs.MOV
+  Started:  2026-03-02 22:34:14
+  Ended:    2026-03-02 22:35:42
+  Duration: 88s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/box_s_10lbs.MOV
   Waiting 15s...
 
-[39/72] demo/VEHSR3R4/S05/activity00.66920734.20230825160424.avi
-  Started:  2026-02-02 09:04:15
-  Ended:    2026-02-02 09:13:40
-  Duration: 565s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity00.66920734.20230825160424.avi
+[30/63] demo/worker_motion/S02/box_s_20lbs.MOV
+  Started:  2026-03-02 22:35:57
+  Ended:    2026-03-02 22:37:36
+  Duration: 99s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/box_s_20lbs.MOV
   Waiting 15s...
 
-[40/72] demo/VEHSR3R4/S05/activity00.66920758.20230825160424.avi
-  Started:  2026-02-02 09:13:55
-  Ended:    2026-02-02 09:23:17
-  Duration: 562s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity00.66920758.20230825160424.avi
+[31/63] demo/worker_motion/S02/box_slide.MOV
+  Started:  2026-03-02 22:37:51
+  Ended:    2026-03-02 22:39:37
+  Duration: 106s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/box_slide.MOV
   Waiting 15s...
 
-[41/72] demo/VEHSR3R4/S05/activity01.51470934.20230825163639.avi
-  Started:  2026-02-02 09:23:32
-  Ended:    2026-02-02 09:32:49
-  Duration: 557s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity01.51470934.20230825163639.avi
+[32/63] demo/worker_motion/S02/box_step.MOV
+  Started:  2026-03-02 22:39:52
+  Ended:    2026-03-02 22:41:44
+  Duration: 112s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/box_step.MOV
   Waiting 15s...
 
-[42/72] demo/VEHSR3R4/S05/activity01.66920731.20230825163639.avi
-  Started:  2026-02-02 09:33:04
-  Ended:    2026-02-02 09:42:21
-  Duration: 557s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity01.66920731.20230825163639.avi
+[33/63] demo/worker_motion/S02/handle_l_10lbs.MOV
+  Started:  2026-03-02 22:41:59
+  Ended:    2026-03-02 22:43:18
+  Duration: 79s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/handle_l_10lbs.MOV
   Waiting 15s...
 
-[43/72] demo/VEHSR3R4/S05/activity01.66920734.20230825163639.avi
-  Started:  2026-02-02 09:42:36
-  Ended:    2026-02-02 09:51:53
-  Duration: 557s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity01.66920734.20230825163639.avi
+[34/63] demo/worker_motion/S02/handle_l_20lbs.MOV
+  Started:  2026-03-02 22:43:33
+  Ended:    2026-03-02 22:44:54
+  Duration: 81s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/handle_l_20lbs.MOV
   Waiting 15s...
 
-[44/72] demo/VEHSR3R4/S05/activity01.66920758.20230825163639.avi
-  Started:  2026-02-02 09:52:08
-  Ended:    2026-02-02 10:01:24
-  Duration: 556s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/activity01.66920758.20230825163639.avi
+[35/63] demo/worker_motion/S02/handle_s_10lbs.MOV
+  Started:  2026-03-02 22:45:09
+  Ended:    2026-03-02 22:46:31
+  Duration: 82s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/handle_s_10lbs.MOV
   Waiting 15s...
 
-[45/72] demo/VEHSR3R4/S05/Activity02.51470934.20230825172346.avi
-  Started:  2026-02-02 10:01:39
-  Ended:    2026-02-02 10:11:28
-  Duration: 589s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity02.51470934.20230825172346.avi
+[36/63] demo/worker_motion/S02/handle_s_20lbs.MOV
+  Started:  2026-03-02 22:46:46
+  Ended:    2026-03-02 22:48:06
+  Duration: 80s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/handle_s_20lbs.MOV
   Waiting 15s...
 
-[46/72] demo/VEHSR3R4/S05/Activity02.66920731.20230825172346.avi
-  Started:  2026-02-02 10:11:43
-  Ended:    2026-02-02 10:21:30
-  Duration: 587s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity02.66920731.20230825172346.avi
+[37/63] demo/worker_motion/S02/handle_slide.MOV
+  Started:  2026-03-02 22:48:21
+  Ended:    2026-03-02 22:50:38
+  Duration: 137s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/handle_slide.MOV
   Waiting 15s...
 
-[47/72] demo/VEHSR3R4/S05/Activity02.66920734.20230825172346.avi
-  Started:  2026-02-02 10:21:45
-  Ended:    2026-02-02 10:31:32
-  Duration: 587s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity02.66920734.20230825172346.avi
+[38/63] demo/worker_motion/S02/handle_step_2.MOV
+  Started:  2026-03-02 22:50:53
+  Ended:    2026-03-02 22:52:25
+  Duration: 92s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/handle_step_2.MOV
   Waiting 15s...
 
-[48/72] demo/VEHSR3R4/S05/Activity02.66920758.20230825172346.avi
-  Started:  2026-02-02 10:31:47
-  Ended:    2026-02-02 10:41:33
-  Duration: 586s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity02.66920758.20230825172346.avi
+[39/63] demo/worker_motion/S02/handle_step.MOV
+  Started:  2026-03-02 22:52:40
+  Ended:    2026-03-02 22:54:31
+  Duration: 111s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/handle_step.MOV
   Waiting 15s...
 
-[49/72] demo/VEHSR3R4/S05/Activity03.51470934.20230825175233.avi
-  Started:  2026-02-02 10:41:48
-  Ended:    2026-02-02 10:51:57
-  Duration: 609s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity03.51470934.20230825175233.avi
+[40/63] demo/worker_motion/S02/timber_l.MOV
+  Started:  2026-03-02 22:54:46
+  Ended:    2026-03-02 22:56:07
+  Duration: 81s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/timber_l.MOV
   Waiting 15s...
 
-[50/72] demo/VEHSR3R4/S05/Activity03.66920731.20230825175233.avi
-  Started:  2026-02-02 10:52:12
-  Ended:    2026-02-02 11:02:21
-  Duration: 609s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity03.66920731.20230825175233.avi
+[41/63] demo/worker_motion/S02/timber_slide.MOV
+  Started:  2026-03-02 22:56:22
+  Ended:    2026-03-02 22:58:28
+  Duration: 126s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/timber_slide.MOV
   Waiting 15s...
 
-[51/72] demo/VEHSR3R4/S05/Activity03.66920734.20230825175233.avi
-  Started:  2026-02-02 11:02:36
-  Ended:    2026-02-02 11:12:46
-  Duration: 610s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity03.66920734.20230825175233.avi
+[42/63] demo/worker_motion/S02/timber_s.MOV
+  Started:  2026-03-02 22:58:43
+  Ended:    2026-03-02 23:00:02
+  Duration: 79s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/timber_s.MOV
   Waiting 15s...
 
-[52/72] demo/VEHSR3R4/S05/Activity03.66920758.20230825175233.avi
-  Started:  2026-02-02 11:13:01
-  Ended:    2026-02-02 11:23:10
-  Duration: 609s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity03.66920758.20230825175233.avi
+[43/63] demo/worker_motion/S02/timber_step.MOV
+  Started:  2026-03-02 23:00:17
+  Ended:    2026-03-02 23:01:43
+  Duration: 86s
+  Status:   ✓ SUCCESS - demo/worker_motion/S02/timber_step.MOV
   Waiting 15s...
 
-[53/72] demo/VEHSR3R4/S05/Activity04.51470934.20230825182302.avi
-  Started:  2026-02-02 11:23:25
-  Ended:    2026-02-02 11:32:32
-  Duration: 547s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity04.51470934.20230825182302.avi
+[44/63] demo/worker_motion/S03/bag_l.mp4
+  Started:  2026-03-02 23:01:58
+  Ended:    2026-03-02 23:03:17
+  Duration: 79s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/bag_l.mp4
   Waiting 15s...
 
-[54/72] demo/VEHSR3R4/S05/Activity04.66920731.20230825182302.avi
-  Started:  2026-02-02 11:32:47
-  Ended:    2026-02-02 11:41:38
-  Duration: 531s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity04.66920731.20230825182302.avi
+[45/63] demo/worker_motion/S03/bag_slide.mp4
+  Started:  2026-03-02 23:03:32
+  Ended:    2026-03-02 23:05:07
+  Duration: 95s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/bag_slide.mp4
   Waiting 15s...
 
-[55/72] demo/VEHSR3R4/S05/Activity04.66920734.20230825182302.avi
-  Started:  2026-02-02 11:41:53
-  Ended:    2026-02-02 11:51:05
-  Duration: 552s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity04.66920734.20230825182302.avi
+[46/63] demo/worker_motion/S03/bag_s.mp4
+  Started:  2026-03-02 23:05:22
+  Ended:    2026-03-02 23:06:37
+  Duration: 75s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/bag_s.mp4
   Waiting 15s...
 
-[56/72] demo/VEHSR3R4/S05/Activity04.66920758.20230825182302.avi
-  Started:  2026-02-02 11:51:20
-  Ended:    2026-02-02 12:00:24
-  Duration: 544s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity04.66920758.20230825182302.avi
+[47/63] demo/worker_motion/S03/bag_step.mp4
+  Started:  2026-03-02 23:06:52
+  Ended:    2026-03-02 23:07:58
+  Duration: 66s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/bag_step.mp4
   Waiting 15s...
 
-[57/72] demo/VEHSR3R4/S05/Activity05.51470934.20230825185132.avi
-  Started:  2026-02-02 12:00:39
-  Ended:    2026-02-02 12:10:32
-  Duration: 593s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity05.51470934.20230825185132.avi
+[48/63] demo/worker_motion/S03/box_l_10lbs.mp4
+  Started:  2026-03-02 23:08:13
+  Ended:    2026-03-02 23:09:23
+  Duration: 70s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/box_l_10lbs.mp4
   Waiting 15s...
 
-[58/72] demo/VEHSR3R4/S05/Activity05.66920731.20230825185132.avi
-  Started:  2026-02-02 12:10:47
-  Ended:    2026-02-02 12:20:45
-  Duration: 598s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity05.66920731.20230825185132.avi
+[49/63] demo/worker_motion/S03/box_l_20lbs.mp4
+  Started:  2026-03-02 23:09:38
+  Ended:    2026-03-02 23:11:13
+  Duration: 95s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/box_l_20lbs.mp4
   Waiting 15s...
 
-[59/72] demo/VEHSR3R4/S05/Activity05.66920734.20230825185132.avi
-  Started:  2026-02-02 12:21:00
-  Ended:    2026-02-02 12:30:59
-  Duration: 599s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity05.66920734.20230825185132.avi
+[50/63] demo/worker_motion/S03/box_s_10lbs.mp4
+  Started:  2026-03-02 23:11:28
+  Ended:    2026-03-02 23:12:59
+  Duration: 91s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/box_s_10lbs.mp4
   Waiting 15s...
 
-[60/72] demo/VEHSR3R4/S05/Activity05.66920758.20230825185132.avi
-  Started:  2026-02-02 12:31:14
-  Ended:    2026-02-02 12:41:11
-  Duration: 597s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity05.66920758.20230825185132.avi
+[51/63] demo/worker_motion/S03/box_s_20lbs.mp4
+  Started:  2026-03-02 23:13:14
+  Ended:    2026-03-02 23:14:28
+  Duration: 74s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/box_s_20lbs.mp4
   Waiting 15s...
 
-[61/72] demo/VEHSR3R4/S05/Activity06.51470934.20230825192231.avi
-  Started:  2026-02-02 12:41:27
-  Ended:    2026-02-02 12:50:40
-  Duration: 553s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity06.51470934.20230825192231.avi
+[52/63] demo/worker_motion/S03/box_slide.mp4
+  Started:  2026-03-02 23:14:43
+  Ended:    2026-03-02 23:16:28
+  Duration: 105s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/box_slide.mp4
   Waiting 15s...
 
-[62/72] demo/VEHSR3R4/S05/Activity06.66920731.20230825192231.avi
-  Started:  2026-02-02 12:50:55
-  Ended:    2026-02-02 12:59:30
-  Duration: 515s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity06.66920731.20230825192231.avi
+[53/63] demo/worker_motion/S03/box_step.mp4
+  Started:  2026-03-02 23:16:44
+  Ended:    2026-03-02 23:17:54
+  Duration: 70s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/box_step.mp4
   Waiting 15s...
 
-[63/72] demo/VEHSR3R4/S05/Activity06.66920734.20230825192231.avi
-  Started:  2026-02-02 12:59:45
-  Ended:    2026-02-02 13:08:58
-  Duration: 553s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity06.66920734.20230825192231.avi
+[54/63] demo/worker_motion/S03/handle_l_10lbs.mp4
+  Started:  2026-03-02 23:18:09
+  Ended:    2026-03-02 23:19:10
+  Duration: 61s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/handle_l_10lbs.mp4
   Waiting 15s...
 
-[64/72] demo/VEHSR3R4/S05/Activity06.66920758.20230825192231.avi
-  Started:  2026-02-02 13:09:13
-  Ended:    2026-02-02 13:18:26
-  Duration: 553s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity06.66920758.20230825192231.avi
+[55/63] demo/worker_motion/S03/handle_l_20lbs.mp4
+  Started:  2026-03-02 23:19:25
+  Ended:    2026-03-02 23:20:37
+  Duration: 72s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/handle_l_20lbs.mp4
   Waiting 15s...
 
-[65/72] demo/VEHSR3R4/S05/Activity07.51470934.20230825195104.avi
-  Started:  2026-02-02 13:18:41
-  Ended:    2026-02-02 13:27:50
-  Duration: 549s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity07.51470934.20230825195104.avi
+[56/63] demo/worker_motion/S03/handle_s_10lbs.mp4
+  Started:  2026-03-02 23:20:52
+  Ended:    2026-03-02 23:21:57
+  Duration: 65s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/handle_s_10lbs.mp4
   Waiting 15s...
 
-[66/72] demo/VEHSR3R4/S05/Activity07.66920731.20230825195104.avi
-  Started:  2026-02-02 13:28:05
-  Ended:    2026-02-02 13:37:14
-  Duration: 549s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity07.66920731.20230825195104.avi
+[57/63] demo/worker_motion/S03/handle_s_20lbs.mp4
+  Started:  2026-03-02 23:22:12
+  Ended:    2026-03-02 23:23:22
+  Duration: 70s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/handle_s_20lbs.mp4
   Waiting 15s...
 
-[67/72] demo/VEHSR3R4/S05/Activity07.66920734.20230825195104.avi
-  Started:  2026-02-02 13:37:29
-  Ended:    2026-02-02 13:46:40
-  Duration: 551s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity07.66920734.20230825195104.avi
+[58/63] demo/worker_motion/S03/handle_slide.mp4
+  Started:  2026-03-02 23:23:37
+  Ended:    2026-03-02 23:25:14
+  Duration: 97s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/handle_slide.mp4
   Waiting 15s...
 
-[68/72] demo/VEHSR3R4/S05/Activity07.66920758.20230825195104.avi
-  Started:  2026-02-02 13:46:55
-  Ended:    2026-02-02 13:56:07
-  Duration: 552s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity07.66920758.20230825195104.avi
+[59/63] demo/worker_motion/S03/handle_step.mp4
+  Started:  2026-03-02 23:25:29
+  Ended:    2026-03-02 23:26:27
+  Duration: 58s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/handle_step.mp4
   Waiting 15s...
 
-[69/72] demo/VEHSR3R4/S05/Activity08.51470934.20230825202309.avi
-  Started:  2026-02-02 13:56:22
-  Ended:    2026-02-02 14:05:39
-  Duration: 557s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity08.51470934.20230825202309.avi
+[60/63] demo/worker_motion/S03/timber_l.mp4
+  Started:  2026-03-02 23:26:42
+  Ended:    2026-03-02 23:27:55
+  Duration: 73s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/timber_l.mp4
   Waiting 15s...
 
-[70/72] demo/VEHSR3R4/S05/Activity08.66920731.20230825202309.avi
-  Started:  2026-02-02 14:05:54
-  Ended:    2026-02-02 14:15:16
-  Duration: 562s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity08.66920731.20230825202309.avi
+[61/63] demo/worker_motion/S03/timber_slide.mp4
+  Started:  2026-03-02 23:28:10
+  Ended:    2026-03-02 23:29:54
+  Duration: 104s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/timber_slide.mp4
   Waiting 15s...
 
-[71/72] demo/VEHSR3R4/S05/Activity08.66920734.20230825202309.avi
-  Started:  2026-02-02 14:15:31
-  Ended:    2026-02-02 14:24:53
-  Duration: 562s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity08.66920734.20230825202309.avi
+[62/63] demo/worker_motion/S03/timber_s.mp4
+  Started:  2026-03-02 23:30:09
+  Ended:    2026-03-02 23:31:20
+  Duration: 71s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/timber_s.mp4
   Waiting 15s...
 
-[72/72] demo/VEHSR3R4/S05/Activity08.66920758.20230825202309.avi
-  Started:  2026-02-02 14:25:08
-  Ended:    2026-02-02 14:34:28
-  Duration: 560s
-  Status:   ✓ SUCCESS - demo/VEHSR3R4/S05/Activity08.66920758.20230825202309.avi
+[63/63] demo/worker_motion/S03/timber_step.mp4
+  Started:  2026-03-02 23:31:35
+  Ended:    2026-03-02 23:32:37
+  Duration: 62s
+  Status:   ✓ SUCCESS - demo/worker_motion/S03/timber_step.mp4
 
 ===========================================
-Pipeline completed at Mon 02 Feb 2026 02:34:28 PM EST
-Total videos: 72 | Processed: 72 | Skipped: 0
+Pipeline completed at Mon 02 Mar 2026 11:32:37 PM EST
+Total videos: 63 | Processed: 63 | Skipped: 0
 Log saved to: ./logs/inference_progress.log

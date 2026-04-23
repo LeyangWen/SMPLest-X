@@ -13,9 +13,9 @@ OUTPUT_PATH=./demo/output_frames/$NAME
 mkdir -p $IMG_PATH
 mkdir -p $OUTPUT_PATH
 
-convert video to frames
+# convert video to frames
 case "$EXT" in
-    mp4|avi|mov|mkv|flv|wmv|webm|mpeg|mpg)
+    mp4|avi|mov|MOV|mkv|flv|wmv|webm|mpeg|mpg)
         ffmpeg -i ./demo/$FILE_NAME -f image2 -vf fps=${FPS}/1 -qscale 0 ${IMG_PATH}/%06d.jpg 
         ;;
     jpg|jpeg|png|bmp|gif|tiff|tif|webp|svg)
